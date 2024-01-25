@@ -1,5 +1,5 @@
 {% set name = "pyformlang" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyformlang-{{ version }}.tar.gz
-  sha256: cac5fa73cab6e9b710caae8680a04ac53769d348fee32a5bde680cd9ca82981b
+  sha256: 2c740cf95cbc6157d3b6959abde620065a7be009d2fc817763511b830564bbb2
 
 build:
   noarch: python
